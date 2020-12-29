@@ -5,6 +5,6 @@ app_name='ProjectInfo'
 
 
 urlpatterns=[
-    path('/',ProjectInfoList.as_view()),
+    path('',ProjectInfoList.as_view()),
     
  ]
